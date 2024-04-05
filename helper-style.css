@@ -43,17 +43,17 @@ li {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    align-self: center;
+}
 body {
     min-width: 1280px;
     width: 100%;
     min-height: 720px;
     height: 100%;
     overflow-x: hidden;
-}
-h6 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    align-self: center;
 }
 div {
     margin-right: 40px;
