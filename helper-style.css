@@ -50,6 +50,11 @@ body {
     height: 100%;
     overflow-x: hidden;
 }
+h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    align-self: center;
+}
 div {
     margin-right: 40px;
 }
