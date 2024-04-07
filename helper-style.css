@@ -12,6 +12,7 @@ h1 {
     align-self: center;
     width: 1000px;
     margin: auto;
+    border-radius: 15px 15px;
 }
 p {
     font-size: 25px;
@@ -22,6 +23,7 @@ p {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 8px 5px 8px 5px;
+    border-radius: 12px;
 }
 li {
     font-size: 15px;
@@ -35,6 +37,7 @@ li {
     align-self: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    border-radius: 10px;
 }
 h6 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -44,7 +47,6 @@ h6 {
 body {
     min-width: 1280px;
     width: 100%;
-    min-height: 720px;
     height: 100%;
     overflow-x: hidden;
     background-color: #5296d9;
