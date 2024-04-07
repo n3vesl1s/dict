@@ -14,17 +14,14 @@ h1 {
     margin: auto;
 }
 p {
-    border: 2px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    text-align: center;
-    margin-left: 300px;
-    margin-right: 300px;
-    min-width: 200px;
-    min-height: 25px;
     font-size: 25px;
+    align-self: center;
+    text-align: center;
+    width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 8px 5px 8px 5px;
 }
 li {
     font-size: 15px;
@@ -55,15 +52,15 @@ body {
 div {
     margin-right: 40px;
 }
-div.first_list li {
+.first_list li {
     background-color: #815653;
 }
-div.second_list li {
+.second_list li {
     background-color: darkolivegreen;
 }
-div.third_list li {
+.third_list li {
     background-color: firebrick;
 }
-div.fourth_list li {
+.fourth_list li {
     background-color: rgb(15, 88, 72);
 }
