@@ -54,15 +54,31 @@ body {
 div {
     margin-right: 40px;
 }
+/* Первый лист */
 .first_list li {
     background-color: #815653;
 }
+.first_list li:hover {
+    background-color: #583b39;
+}
+/* Второй лист */
 .second_list li {
     background-color: darkolivegreen;
 }
+.second_list li:hover {
+    background-color: rgb(59, 75, 31);
+}
+/* Третий лист */
 .third_list li {
     background-color: firebrick;
 }
+.third_list li:hover {
+    background-color: rgb(112, 26, 26);
+}
+/* Четвёртый лист */
 .fourth_list li {
     background-color: rgb(15, 88, 72);
+}
+.fourth_list li:hover {
+    background-color: rgb(10, 63, 52);
 }
