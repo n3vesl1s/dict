@@ -1,4 +1,4 @@
-h1, p, li {
+h1, p, button {
     color: azure;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     white-space: nowrap;
@@ -25,19 +25,19 @@ p {
     padding: 8px 5px 8px 5px;
     border-radius: 12px;
 }
-li {
-    font-size: 15px;
+button {
+    display: flex;
     text-align: center;
-    list-style-type: none;
-    border: 2px;
-    margin: auto;
-    padding-top: 5px;
-    padding-bottom:5px;
     width: 1000px;
-    align-self: center;
+    border: none;
+    margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 15px;
     border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    cursor: pointer;
 }
 h6 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -50,35 +50,41 @@ body {
     height: 100%;
     overflow-x: hidden;
     background-color: #5296d9;
+    left: 50%;
+    right: 50%;
 }
 div {
-    margin-right: 40px;
+    align-items: center;
 }
+
 /* Первый лист */
-.first_list li {
+.first_list button {
     background-color: #815653;
 }
-.first_list li:hover {
+.first_list button:hover {
     background-color: #583b39;
 }
+
 /* Второй лист */
-.second_list li {
+.second_list button {
     background-color: darkolivegreen;
 }
-.second_list li:hover {
+.second_list button:hover {
     background-color: rgb(59, 75, 31);
 }
+
 /* Третий лист */
-.third_list li {
+.third_list button {
     background-color: firebrick;
 }
-.third_list li:hover {
+.third_list button:hover {
     background-color: rgb(112, 26, 26);
 }
+
 /* Четвёртый лист */
-.fourth_list li {
+.fourth_list button {
     background-color: rgb(15, 88, 72);
 }
-.fourth_list li:hover {
+.fourth_list button:hover {
     background-color: rgb(10, 63, 52);
 }
