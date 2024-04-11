@@ -98,6 +98,29 @@ body {
         background-color: rgb(12, 71, 59);
     }
 }
+@media screen and (min-width: 320px) {
+    .helperButton a.button {
+        max-width: 66%;
+        font-size: 1.75em;
+    }
+    h1 {
+        max-width: 85%;
+        font-size: 2.05em;
+        padding: 3px 5px 3px 5px;
+    }
+    h1#header {
+        max-width: 74%;
+        font-size: 2.3em;
+    }
+    p {
+        max-width: 73%;
+        font-size: 20px;
+    }
+    h6 {
+        max-width: 110%;
+        font-size: 14px;
+    }
+}
 @media screen and (min-width: 760px) {
     .helperButton a.button {
         max-width: 60%;
@@ -113,7 +136,7 @@ body {
     }
     p {
         max-width: 70%;
-        font-size: 22px;
+        font-size: 20px;
     }
     h6 {
         max-width: 100%;
