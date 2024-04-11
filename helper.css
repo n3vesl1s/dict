@@ -7,8 +7,6 @@ h1, p, a.button {
 }
 h1 {
     border-radius: 12px;
-    font-size: 25px;
-    max-width: 63%;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 8px 0px 8px 0px;
@@ -16,8 +14,6 @@ h1 {
 h1#header {
     background-color: #16599b;
     border-radius: 15px;
-    font-size: 2em;
-    max-width: 51%;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
@@ -29,8 +25,6 @@ h6 {
 }
 p {
     border-radius: 10px;
-    font-size: 15px;
-    max-width: 52%;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 5px 8px 5px 8px;
@@ -52,8 +46,6 @@ body {
         border: none;
         border-radius: 13px;
         display: block;
-        font-size: 20px;
-        max-width: 30%;
         margin-top: 10px;
         margin-bottom: 10px;
         padding: 2px;
@@ -106,4 +98,71 @@ body {
         background-color: rgb(12, 71, 59);
     }
 }
+@media screen and (min-width: 760px) {
+    .helperButton a.button {
+        max-width: 60%;
+        font-size: 1.75em;
+    }
+    h1 {
+        max-width: 80%;
+        font-size: 2em;
+    }
+    h1#header {
+        max-width: 69%;
+        font-size: 2.3em;
+    }
+    p {
+        max-width: 70%;
+        font-size: 22px;
+    }
+    h6 {
+        max-width: 100%;
+        font-size: 14px;
+    }
+}
 
+@media screen and (min-width: 1000px) {
+    .helperButton a.button {
+        max-width: 42%;
+        font-size: 24px;
+    }
+    h1 {
+        max-width: 75%;
+        font-size: 28px;
+    }
+    h1#header {
+        max-width: 63%;
+        font-size: 2.2em;
+    }
+    p {
+        max-width: 64%;
+        font-size: 18px;
+    }
+    h6 {
+        max-width: 100%;
+        font: 12px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .helperButton a.button {
+        max-width: 30%;
+        font-size: 20px;
+    }
+    h1 {
+        max-width: 63%;
+        font-size: 25px;
+    }
+    h1#header {
+        max-width: 51%;
+        font-size: 2em; /* дефолт */
+    }
+    p {
+        max-width: 52%;
+        font-size: 15px;
+    }
+    h6 {
+        max-width: 100%;
+        font-size: 0.67em; /* дефолт */
+    }
+}
