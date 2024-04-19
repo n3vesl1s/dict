@@ -4,26 +4,30 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <h1 id="header">Словарь GDPS Helper'а</h1>
+  <h1 class="header">Словарь GDPS Helper'а</h1>
   <div class="helperButton">
-  <a href="https://gdpshelper.xyz/" class="button" target="_blank">Сайт GDPS Helper'а</a>
-  </div>
+    <a href="https://gdpshelper.xyz/" class="button" target="_blank">Сайт GDPS Helper'а</a>
+</div>
   <div id="words" class="dictContainer">
-    <h1>1. Общие понятия</h1>
-  </div>
+    <h1 onclick="changeExpState('words')">1. Общие понятия </h1>
+</div>
   <div id="goodPeoples" class="dictContainer">
-    <h1>2. Некоторые участники дискорд сервера</h1>
-  </div>
+    <h1 onclick="changeExpState('goodPeoples')">2. Некоторые участники дискорд сервера</h1>
+</div>
   <div id="badPeoples" class="dictContainer">
-    <h1>3. Неуважаемые участники дискорд сервера</h1>
-  </div>
+    <h1 onclick="changeExpState('badPeoples')">3. Неуважаемые участники дискорд сервера</h1>
+</div>
   <div id="gdpsOwners" class="dictContainer">
-    <h1>4. Владельцы некоторых GDPS'ов</h1>
-  </div>
+    <h1 onclick="changeExpState('gdpsOwners')">4. Владельцы некоторых GDPS'ов</h1>
+</div>
   <div id="dates" class="dictContainer">
-    <h1>5. Даты</h1>
-  </div>
-  <h6>made by n3vesl1s, vustur <br> sp.thx: Stylish, NXISE <br> ver. 1.3 | currently supported</h6>
+    <h1 onclick="changeExpState('dates')">5. Даты</h1>
+</div>
+  <div id="discordRules" class="dictContainer">
+    <h1 onclick="changeExpState('discordRules')">5. Правила на дискорд сервере</h1>
+</div>
+  <h6>tips: клик на пункт раскроет его <br> клик по тексту в пункте скопирует его</h6>
+  <h6>made by n3vesl1s, vustur <br> sp.thx: Stylish, NXISE, ghiggi <br> ver. 1.4 | currently supported</h6>
 
   <script src="./scripts/helperDictSections.js"></script> 
 </body>
