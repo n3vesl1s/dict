@@ -109,6 +109,10 @@ body {
     }
 }
 @media screen and (min-width: 320px) {
+     h1, p, a.button {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
     .helperButton a.button {
         max-width: 66%;
         font-size: 1.75em;
@@ -132,6 +136,10 @@ body {
     }
 }
 @media screen and (min-width: 760px) {
+    h1, p, a.button {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
     .helperButton a.button {
         max-width: 60%;
         font-size: 1.75em;
