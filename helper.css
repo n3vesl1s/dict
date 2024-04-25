@@ -171,14 +171,17 @@ body {
     h1 {
         max-width: 75%;
         font-size: 28px;
+        padding: 8px 0px 8px 0px;
     }
     h1.header {
         max-width: 63%;
         font-size: 2.2em;
+        padding: 10px;
     }
     p {
         max-width: 64%;
         font-size: 18px;
+        padding: 5px 8px 5px 8px;
     }
     h6 {
         max-width: 100%;
