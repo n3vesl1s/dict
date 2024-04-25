@@ -167,6 +167,7 @@ body {
     .helperButton a.button {
         max-width: 42%;
         font-size: 24px;
+        padding: 2px;
     }
     h1 {
         max-width: 75%;
@@ -193,18 +194,22 @@ body {
     .helperButton a.button {
         max-width: 30%;
         font-size: 20px;
+        padding: 2px;
     }
     h1 {
         max-width: 63%;
         font-size: 25px;
+        padding: 8px 0px 8px 0px;
     }
     h1.header {
         max-width: 51%;
         font-size: 2em; /* дефолт */
+        padding: 10px;
     }
     p {
         max-width: 52%;
         font-size: 15px;
+        padding: 5px 8px 5px 8px;
     }
     h6 {
         max-width: 100%;
