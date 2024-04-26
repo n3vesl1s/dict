@@ -29,7 +29,7 @@ p {
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding: 5px 8px 5px 8px;
+    padding: 8px;
     text-align: left;
 }
 p:hover, a.button:hover, h1:not(.header):hover{
@@ -182,7 +182,7 @@ body {
     p {
         max-width: 64%;
         font-size: 18px;
-        padding: 5px 8px 5px 8px;
+        padding: 8px;
     }
     h6 {
         max-width: 100%;
@@ -209,7 +209,7 @@ body {
     p {
         max-width: 52%;
         font-size: 15px;
-        padding: 5px 8px 5px 8px;
+        padding: 8px;
     }
     h6 {
         max-width: 100%;
