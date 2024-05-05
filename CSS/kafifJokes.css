@@ -13,7 +13,7 @@ h1 {
     padding: 8px 0px 8px 0px;
 }
 h1.header {
-    background-color: #16599b;
+    background-color: #3d1010;
     border-radius: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -30,84 +30,32 @@ p {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 8px;
-    text-align: left;
+    text-align: center;
+    background-color: #521414;
 }
-p:hover, a.button:hover, h1:not(.header):hover{
+p.genButton {
+    background-color: #294c81;
+}
+p.genButton:hover, a.button:hover, h1:not(.header):hover{
     cursor: pointer;
     scale: 1.05;
     transition: all 0.35s;
 }
 body {
     margin: auto;
-    background-color: #5296d9;
+    background-color: #611313;
 }
-.helperButton {
-    align-items: center;
-    a.button {
-        background-color: #16599b;
-        border: none;
-        border-radius: 13px;
-        display: block;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding: 2px;
-        text-decoration: none;
-    }
-    a.button:hover {
-        background-color: #13477c;
-    }
+img.kafi {
+    margin: 10px auto 10px;
+    display: block;
+    border-radius: 15px;
+    user-select: none;
+}
+p#joke {
+    user-select: all;
 }
 
-.dictContainer#words {
-    h1, p {
-        background-color: #815653;
-    }
-    p:hover, h1:hover {
-        background-color: #684644;
-    }
-}
-
-.dictContainer#goodPeoples {
-    h1, p {
-        background-color: darkolivegreen;
-    }
-    p:hover, h1:hover {
-        background-color: rgb(70, 87, 40);
-    }
-}
-
-.dictContainer#badPeoples {
-    h1, p {
-        background-color: firebrick;
-    }
-    p:hover, h1:hover {
-        background-color: rgb(143, 33, 33);
-    }
-}
-.dictContainer#gdpsOwners {
-    h1, p {
-        background-color: rgb(64, 51, 173);
-    }
-    p:hover, h1:hover {
-        background-color: rgb(50, 40, 138);
-    }
-}
-.dictContainer#dates {
-    h1, p {
-        background-color: rgb(15, 88, 72);
-    }
-    p:hover, h1:hover {
-        background-color: rgb(12, 71, 59);
-    }
-}
-.dictContainer#discordRules {
-    h1, p {
-        background-color: rgb(133, 76, 23)
-    }
-    p:hover, h1:hover {
-        background-color: rgb(117, 67, 21);
-    }
-}
+/* адаптивная вёрстка */
 @media screen and (min-width: 320px) {
      h1, p, a.button {
         padding-top: 15px;

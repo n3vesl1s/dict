@@ -1,0 +1,218 @@
+h1, p, a.button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-self: center;
+    text-align: center;
+    color: azure;
+    margin: auto;
+    user-select: none;
+}
+h1 {
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 8px 0px 8px 0px;
+}
+h1.header {
+    background-color: #16599b;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    align-self: center;
+    user-select: none;
+}
+p {
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    text-align: left;
+}
+p:hover, a.button:hover, h1:not(.header):hover{
+    cursor: pointer;
+    scale: 1.05;
+    transition: all .35s;
+}
+body {
+    margin: auto;
+    background-color: #5296d9;
+}
+.helperButton {
+    align-items: center;
+    a.button {
+        background-color: #16599b;
+        border: none;
+        border-radius: 13px;
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 2px;
+        text-decoration: none;
+    }
+    a.button:hover {
+        background-color: #13477c;
+    }
+}
+
+.dictContainer#words {
+    h1, p {
+        background-color: #815653;
+    }
+    p:hover, h1:hover {
+        background-color: #684644;
+    }
+}
+
+.dictContainer#goodPeoples {
+    h1, p {
+        background-color: darkolivegreen;
+    }
+    p:hover, h1:hover {
+        background-color: rgb(70, 87, 40);
+    }
+}
+
+.dictContainer#badPeoples {
+    h1, p {
+        background-color: firebrick;
+    }
+    p:hover, h1:hover {
+        background-color: rgb(143, 33, 33);
+    }
+}
+.dictContainer#gdpsOwners {
+    h1, p {
+        background-color: rgb(64, 51, 173);
+    }
+    p:hover, h1:hover {
+        background-color: rgb(50, 40, 138);
+    }
+}
+.dictContainer#dates {
+    h1, p {
+        background-color: rgb(15, 88, 72);
+    }
+    p:hover, h1:hover {
+        background-color: rgb(12, 71, 59);
+    }
+}
+.dictContainer#discordRules {
+    h1, p {
+        background-color: rgb(133, 76, 23)
+    }
+    p:hover, h1:hover {
+        background-color: rgb(117, 67, 21);
+    }
+}
+@media screen and (min-width: 320px) {
+     h1, p, a.button {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .helperButton a.button {
+        max-width: 66%;
+        font-size: 1.75em;
+    }
+    h1 {
+        max-width: 85%;
+        font-size: 2.05em;
+        padding: 3px 5px 3px 5px;
+    }
+    h1.header {
+        max-width: 74%;
+        font-size: 2.3em;
+    }
+    p {
+        max-width: 73%;
+        font-size: 20px;
+    }
+    h6 {
+        max-width: 110%;
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 760px) {
+    h1, p, a.button {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 15px;
+    }
+    .helperButton a.button {
+        max-width: 60%;
+        font-size: 1.75em;
+    }
+    h1 {
+        max-width: 80%;
+        font-size: 2em;
+    }
+    h1.header {
+        max-width: 69%;
+        font-size: 2.3em;
+    }
+    p {
+        max-width: 70%;
+        font-size: 20px;
+    }
+    h6 {
+        max-width: 100%;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .helperButton a.button {
+        max-width: 42%;
+        font-size: 24px;
+        padding: 2px;
+    }
+    h1 {
+        max-width: 75%;
+        font-size: 28px;
+        padding: 8px 0px 8px 0px;
+    }
+    h1.header {
+        max-width: 63%;
+        font-size: 2.2em;
+        padding: 10px;
+    }
+    p {
+        max-width: 64%;
+        font-size: 18px;
+        padding: 8px;
+    }
+    h6 {
+        max-width: 100%;
+        font: 12px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .helperButton a.button {
+        max-width: 30%;
+        font-size: 20px;
+        padding: 2px;
+    }
+    h1 {
+        max-width: 63%;
+        font-size: 25px;
+        padding: 8px 0px 8px 0px;
+    }
+    h1.header {
+        max-width: 51%;
+        font-size: 2em; /* дефолт */
+        padding: 10px;
+    }
+    p {
+        max-width: 52%;
+        font-size: 15px;
+        padding: 8px;
+    }
+    h6 {
+        max-width: 100%;
+        font-size: 0.67em; /* дефолт */
+    }
+}
