@@ -1,4 +1,4 @@
-h1, p, a.button {
+h1, p, a.origWebsite{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-self: center;
     text-align: center;
@@ -36,14 +36,28 @@ p {
 p.genButton {
     background-color: #294c81;
 }
-p.genButton:hover, a.button:hover, h1:not(.header):hover{
+p.genButton:hover, a.origWebsite:hover, h1:not(.header):hover{
     cursor: pointer;
     scale: 1.05;
     transition: all 0.35s;
 }
+.oW {
+    align-items: center;
+
+}
+a.origWebsite {
+    background-color: #294c81;
+    border: none;
+    border-radius: 13px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2px;
+    text-decoration: none;
+}
 body {
     margin: auto;
-    background-color: #611313;
+    background-color: #181818;
 }
 img.kafi {
     margin: 10px auto 10px;
@@ -61,7 +75,7 @@ p#joke {
         padding-top: 15px;
         padding-bottom: 15px;
     }
-    .helperButton a.button {
+    a.origWebsite {
         max-width: 66%;
         font-size: 1.75em;
     }
@@ -89,7 +103,7 @@ p#joke {
         padding-bottom: 15px;
         border-radius: 15px;
     }
-    .helperButton a.button {
+    a.origWebsite {
         max-width: 60%;
         font-size: 1.75em;
     }
@@ -112,7 +126,7 @@ p#joke {
 }
 
 @media screen and (min-width: 1000px) {
-    .helperButton a.button {
+    a.origWebsite {
         max-width: 42%;
         font-size: 24px;
         padding: 2px;
@@ -139,7 +153,7 @@ p#joke {
 }
 
 @media screen and (min-width: 1280px) {
-    .helperButton a.button {
+    a.origWebsite {
         max-width: 30%;
         font-size: 20px;
         padding: 2px;
