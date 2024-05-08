@@ -98,7 +98,7 @@ function changeExpState(id) {
       let defention = document.createElement("p");
       defention.innerHTML = key2 + " - " + value2;
       defention.onclick = function() {
-        navigator.clipboard.writeText(key2 + " - " + value2 + " (информация взята с https://n3vesl1s.github.io/dict/)");
+        navigator.clipboard.writeText(key2 + " - " + value2 + " (https://n3vesl1s.github.io/dict/)");
         alert("Скопировано!")
       }
       parentDiv.appendChild(defention);
