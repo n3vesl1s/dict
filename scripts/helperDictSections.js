@@ -111,3 +111,4 @@ function changeExpState(id) {
 }
 
 // thx vustur for this js code🤩🤩💋
+// vustur furry
