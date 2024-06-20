@@ -1,0 +1,28 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+.image-wrapper {
+    max-width: 200px;
+}
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0px 0px;
+    user-select: none;
+}
+.image-wrapper p {
+    background-color: rgb(41, 64, 90);
+    border-radius: 0px 0px 10px 10px;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    user-select: none;
+    padding-left: 3px;
+    padding-right: 3px;
+}
