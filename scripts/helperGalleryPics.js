@@ -64,7 +64,7 @@ const imagesWithCaptions = [
     { url: 'https://n3vesl1s.github.io/dict/images/gallery/1108024359160918056.webp', 
         caption: 'Rekafif'},
     { url: 'https://media.discordapp.net/attachments/1253263045552242739/1253415765076480041/9e8ee83c1786ee25423b5c980087408a.jpg?ex=6675c5e5&is=66747465&hm=561eb431ea1c6207a50586f929e2a81ab729b724702e4ace2cc0302e42a304b0&=&format=webp',
-        caption: 'Аргумент'}
+        caption: 'Шаурма'}
 ];
 document.body.appendChild(renderImagesWithCaptions(imagesWithCaptions));
 
