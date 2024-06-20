@@ -13,16 +13,17 @@
 .image-wrapper img {
     width: 100%;
     height: auto;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px;
     user-select: none;
 }
 .image-wrapper p {
     background-color: rgb(41, 64, 90);
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 10px;
     color: aliceblue;
     font-size: 20px;
     text-align: center;
     user-select: none;
     padding-left: 3px;
     padding-right: 3px;
+    margin-top: 5px;
 }
