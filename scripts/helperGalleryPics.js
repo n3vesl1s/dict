@@ -64,7 +64,17 @@ const imagesWithCaptions = [
     { url: 'https://n3vesl1s.github.io/dict/images/gallery/1108024359160918056.webp', 
         caption: 'Rekafif'},
     { url: 'https://media.discordapp.net/attachments/1253263045552242739/1253415765076480041/9e8ee83c1786ee25423b5c980087408a.jpg?ex=6675c5e5&is=66747465&hm=561eb431ea1c6207a50586f929e2a81ab729b724702e4ace2cc0302e42a304b0&=&format=webp',
-        caption: 'Шаурма'}
+        caption: 'Шаурма'},
+    { url: 'https://cdn.discordapp.com/attachments/1253263045552242739/1253415541721268286/defdc31078c81f2f3f684b2598ba36d4.jpg?ex=66766e70&is=66751cf0&hm=7ba08e872b6da273ca3fd635beaf69964c349b3d787437fc2e29705ca41fc024&',
+         caption: 'Аргумент'},
+     { url: 'https://cdn.discordapp.com/attachments/1253263045552242739/1253418092579782780/IMG_6185.jpg?ex=667670d0&is=66751f50&hm=e965ffade7550d5b86d13d74bb24d2192bb081be1126b8ea941e4d0198cf4633&', 
+         caption: 'Putinbomb'},
+     { url: 'https://cdn.discordapp.com/attachments/1253263045552242739/1253640793382719558/image.png?ex=66769778&is=667545f8&hm=28878b1d423d54b859423207d17da7ef8ef38ff82642a3ec90d3e4ebfdff70a7&',
+         caption: 'Фура хелпер'},
+     { url: 'https://cdn.discordapp.com/attachments/1253263045552242739/1253641136640102461/image.png?ex=667697ca&is=6675464a&hm=051ae56b69690d8f10bba482c95d0b4432f80c2e57862664f2952bbd2514f88c&',
+         caption: 'Аж под аж ож об the morning will be great'},
+     { url: 'https://cdn.discordapp.com/attachments/1253263045552242739/1253643794243518555/IMG_4620.jpg?ex=66769a44&is=667548c4&hm=78588cac7bac3c08209c4cf250cb50b34f5e365b30d13b6e310af23024020255&',
+         caption: 'Фураслип отправляет стикер'},
 ];
 document.body.appendChild(renderImagesWithCaptions(imagesWithCaptions));
 
