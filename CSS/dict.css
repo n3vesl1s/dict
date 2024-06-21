@@ -134,6 +134,9 @@ body {
         max-width: 110%;
         font-size: 14px;
     }
+    #img {
+        max-width: 100px;
+    }
 }
 @media screen and (min-width: 760px) {
     h1, p, a.button {
@@ -157,6 +160,9 @@ body {
         max-width: 100%;
         font-size: 14px;
     }
+    #img {
+        max-width: 130px;
+    }
 }
 @media screen and (min-width: 1000px) {
     h1 {
@@ -178,6 +184,9 @@ body {
         max-width: 100%;
         font: 12px;
     }
+    #img {
+        max-width: 100px;
+    }
 }
 @media screen and (min-width: 1280px) {
     h1 {
@@ -198,5 +207,8 @@ body {
     h6 {
         max-width: 100%;
         font-size: 0.67em; /* дефолт */
+    }
+    #img {
+        max-width: 75px;
     }
 }
