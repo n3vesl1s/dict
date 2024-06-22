@@ -105,6 +105,28 @@ const imagesWithCaptions = [
          caption: 'Успех кафифа'},
       { url: 'https://cdn.discordapp.com/attachments/1253263045552242739/1253671179508777135/JVpPuQH.png?ex=6676b3c5&is=66756245&hm=bbc7d777697c72adb9d235b8d324200775a43ac6fdb74ee57a391883ef844e75&', 
          caption: 'Фура рекафиф и его семья'},
+      { url: 'https://cdn.discordapp.com/attachments/1253263045552242739/1253713691321569371/ogMpQOvoIw.png?ex=6677841c&is=6676329c&hm=74c259e9253c1a37b2d6b8b25b0c566b2eb9bf030213bc8c2c20cb6e9c566fba&', 
+         caption: 'Миньонбомб'},
+      { url: 'https://cdn.discordapp.com/attachments/1253263045552242739/1253723969576767559/IMG_20240511_144705_0335.jpg?ex=66778daf&is=66763c2f&hm=341a0d1664c104bcb1557836e1cb08934218c3cf19d74f1be69ea7524e81177b&', 
+         caption: 'Довольный миобомб'},
+      { url: 'https://cdn.discordapp.com/attachments/1253263045552242739/1253724502077079552/attachment.png?ex=66778e2e&is=66763cae&hm=a6b4ee77257234fc42e79154325f7ac861f3a405175c5275653149e948321ea6&', 
+         caption: 'miobomb noob'},
+      { url: 'https://cdn.discordapp.com/attachments/1253263045552242739/1253726030753959956/IMG_1525.jpg?ex=66778f9a&is=66763e1a&hm=1ce1a203fa033b6a56a3ac9375aeddb7fe9faef31c4a2447cbcb7c85937e2df3&', 
+         caption: 'Rekafif is a right guy'},
+      { url: 'https://cdn.discordapp.com/attachments/1253263045552242739/1253726031232368690/Screenshot_20240105-0106042.png?ex=66778f9a&is=66763e1a&hm=a44cc1e5f87f09a9b7f56bc2d1d4f7eddf4c60e9c37d539d67660835aa9d54f0&', 
+         caption: 'Арт пивозавра'},
+      { url: 'https://cdn.discordapp.com/attachments/1253263045552242739/1253726031735558247/247_20240307162932.png?ex=66778f9b&is=66763e1b&hm=fc48680b7dfe16c6460dcc9a5e68a009f5fd0604848cff55e6832b0779d2879c&', 
+         caption: 'Quadrofif'},
+      { url: 'https://cdn.discordapp.com/attachments/1253263045552242739/1253726032519761920/253_20240307230207.png?ex=66778f9b&is=66763e1b&hm=0f10c9247495f6b5699fd13568c95f939ab7ab653580c7a644467e2026e88c39&', 
+         caption: 'Огромный капибомб'},
+      { url: 'https://cdn.discordapp.com/attachments/1253263045552242739/1253726033480388688/260_20240310011856.png?ex=66778f9b&is=66763e1b&hm=0c995a44f9d1f0743a550291a30e159fdb5714f1ea4cd96b1434b2c9bc48877f&', 
+         caption: 'Осабомб'},
+      { url: 'https://cdn.discordapp.com/attachments/1253263045552242739/1253726034017128528/IMG20240310212223.jpg?ex=66778f9b&is=66763e1b&hm=c7a117fa6f11df1867ab4f7eb5b7aec6079ec3681ff20e16b5652de26b76380c&', 
+         caption: 'Довольный маньяк мио'},
+      { url: 'https://cdn.discordapp.com/attachments/1253263045552242739/1253727775672635392/image0-40.jpg?ex=6677913a&is=66763fba&hm=57ca71fedf1ab4b6cc2dffc82bb58e85ddaf54eb5f9c0d2c627e4a60f2294989&', 
+         caption: 'Свинарник в форме авы DenisC'},
+
+
 ];
 document.body.appendChild(renderImagesWithCaptions(imagesWithCaptions));
 
