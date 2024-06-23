@@ -125,8 +125,8 @@ const imagesWithCaptions = [
          caption: 'Довольный маньяк мио'},
       { url: 'https://cdn.discordapp.com/attachments/1253263045552242739/1253727775672635392/image0-40.jpg?ex=6677913a&is=66763fba&hm=57ca71fedf1ab4b6cc2dffc82bb58e85ddaf54eb5f9c0d2c627e4a60f2294989&', 
          caption: 'Свинарник в форме авы DenisC'},
-
-
+      { url: 'https://cdn.discordapp.com/attachments/1253263045552242739/1254504234452516975/47f1f19b7c43c4b74f709e46e8e985a8.png?ex=6679bb9d&is=66786a1d&hm=0e20cd1a731f545880e797a9774218284a0e38de8309b545c251de3e87f3fb53&', 
+         caption: 'Оксана ghiggi снова'},
 ];
 document.body.appendChild(renderImagesWithCaptions(imagesWithCaptions));
 
