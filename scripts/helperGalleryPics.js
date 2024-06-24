@@ -101,7 +101,7 @@ const imagesWithCaptions = [
          caption: 'Zombiebomb'},
       { url: 'https://i.ibb.co/TM4WBPc/dfRJh1e.png', 
          caption: 'Очень злой миобомб'},
-      { url: 'https://i.ibb.co/TM4WBPc/dfRJh1e.png', 
+      { url: 'https://i.ibb.co/dp46Hyy/d1kVAw9.png', 
          caption: 'Успех кафифа'},
       { url: 'https://i.ibb.co/NxkB2sv/JVpPuQH.png', 
          caption: 'Фура рекафиф и его семья'},
