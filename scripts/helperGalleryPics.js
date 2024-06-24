@@ -97,7 +97,7 @@ const imagesWithCaptions = [
          caption: 'Фифляндия'},
       { url: 'https://i.ibb.co/s2B6sH2/d4I1taG.png', 
          caption: 'Хитрый миобомб'},
-      { url: 'https://i.ibb.co/mBmpD2m/LLMa4mN.png, 
+      { url: 'https://i.ibb.co/mBmpD2m/LLMa4mN.png', 
          caption: 'Zombiebomb'},
       { url: 'https://i.ibb.co/TM4WBPc/dfRJh1e.png', 
          caption: 'Очень злой миобомб'},
