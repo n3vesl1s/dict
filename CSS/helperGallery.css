@@ -17,7 +17,8 @@
     user-select: none;
 }
 .image-wrapper p {
-    background-color: rgb(41, 64, 90);
+    border: 2px solid;
+    border-color: #1e40af;
     border-radius: 10px;
     color: aliceblue;
     font-size: 20px;
