@@ -97,6 +97,8 @@ let dictionary = {
     }
 };
 
+// list & copy function
+
 function changeExpState(id) {
   let parentDiv = document.getElementById(id);
   console.log(parentDiv.children.length)
@@ -107,7 +109,13 @@ function changeExpState(id) {
       defention.innerHTML = key2 + " - " + value2;
       defention.onclick = function() {
         navigator.clipboard.writeText(key2 + " - " + value2 + " (https://n3vesl1s.github.io/dict/)");
-        alert("Скопировано!")
+        const copyAlert = document.getElementById("copyMessage");
+        copyAlert.style.display = "block";
+        console.log ("visible")
+        setTimeout(() => {
+          copyAlert.style.display = "none";
+          console.log("hidden")
+      }, 2000);
       }
       parentDiv.appendChild(defention);
     }
