@@ -110,13 +110,7 @@ function changeExpState(id) {
       defention.innerHTML = key2 + " - " + value2;
       defention.onclick = function() {
         navigator.clipboard.writeText(key2 + " - " + value2 + " (https://n3vesl1s.github.io/dict/)");
-        const copyAlert = document.getElementById("copyAlert");
-        copyAlert.style.display = "block";
-        console.log ("visible")
-        setTimeout(() => {
-          copyAlert.style.display = "none";
-          console.log("hidden")
-      }, 2000);
+        alert("Скопировано!");
       }
       parentDiv.appendChild(defention);
     }
