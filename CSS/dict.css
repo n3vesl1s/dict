@@ -850,12 +850,16 @@ p:hover {
 .copy-message {
   display: none;
   position: absolute;
-  background-color: rgb(167, 139, 250);
+  left: 10px;
+  top: 10px;
+}
+.copy-message h2 {
+  position: fixed;
+  background-color: rgba(97, 51, 238, 0.7);
+  font-size: x-large;
   color: #ecfeff;
   border: 3px solid #1e1b4b;
   padding: 10px;
-  border-radius: 5px;
-  margin-top: 10px;
-  margin-left: 15px;
-  top: 10px;
+  border-radius: 10px;
+  font-family: monospace;
 }
